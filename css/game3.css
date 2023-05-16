@@ -1,0 +1,137 @@
+/* Grid Twitter Bootstrap Customizations */
+/* An overriding class that adds space between rows */
+.top-buffer { margin-top: 20px; }
+.bottom-buffer { margin-bottom: 20px; }
+
+
+
+/* Global Typography */
+
+h2, h3{ margin-top: 0; }
+
+.prompt{
+    font-family: "Tangerine", "serif";
+    font-size: 28px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+
+
+/* Callout Containe r*/
+.callout-container .col-xs-12{
+margin-bottom: 3em;
+}
+
+
+
+footer{
+    background: #111;
+    margin-top:40px;
+    color: #fff;
+}
+
+
+
+body{
+    background: #fcfcfc;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:rgb(22, 91, 141);
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Press Start 2P', 'sans-serif'
+}
+.footer-content p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+    text-transform: capitalize;
+
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+    text-align: center;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 2.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover {
+    color: black;
+}
+
+.footer-bottom{
+    background:rgb(22, 91, 141);
+    width: 100vw;
+    padding: 10px 0;
+    
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 13px;
+    word-spacing: 2px;
+}
+.footer-bottom span{
+    opacity: .4;
+    font-weight: 200;
+}
+
+.page-header {font-family: 'Press Start 2P', 'sans-serif';}
+
+.calc {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border:3px double rgb(245, 223, 229);
+	clear: both;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 50px;
+    justify-content: center;
+    background-image: linear-gradient(131.83deg, #ffb3d6 0%,     #FFF7F7 99.21%);
+    height: 400px;
+    width: 400px;
+    border-radius: 9px;
+   
+}
+#result {
+	color: black;
+  font-size: 85px;
+  font-family: 'Tangerine', 'sans-serif';
+  text-shadow: 1px 1px 1px #0f0101;
+	height: 150px;
+}
+
+.form-horizontal{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+
+

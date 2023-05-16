@@ -1,0 +1,216 @@
+/* Grid Twitter Bootstrap Customizations */
+/* An overriding class that adds space between rows */
+.top-buffer { margin-top: 20px; }
+.bottom-buffer { margin-bottom: 20px; }
+
+
+
+/* Global Typography */
+
+h2, h3{ margin-top: 0; }
+
+
+
+
+/* Callout Containe r*/
+.callout-container .col-xs-12{
+margin-bottom: 3em;
+}
+
+
+
+footer{
+    background: #111;
+    margin-top:40px;
+    color: #fff;
+}
+footer{
+    position:relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:rgb(22, 91, 141);
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Press Start 2P', 'sans-serif'
+}
+.footer-content p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+    text-transform: capitalize;
+
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+    text-align: center;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 2.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover {
+    color: black;
+}
+
+.footer-bottom{
+    background:rgb(22, 91, 141);
+    width: 100vw;
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 13px;
+    word-spacing: 2px;
+}
+.footer-bottom span{
+    opacity: .4;
+    font-weight: 200;
+}
+
+
+body{
+    background: #fcfcfc;
+}
+
+.page-header {
+    font-family: 'Press Start 2P', 'sans-serif';
+}
+
+.container-game {
+    font-size: 16px;
+    background-color: #ffffff;
+    width: 90vw;
+    max-width: 34em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 3em;
+    border-radius: 0.6em;
+    box-shadow: 0 1.2em 2.4em rgba(111, 85, 0, 0.25);
+  }
+
+#options-container {
+    text-align: center;
+  }
+
+#options-container div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1.2em 0 2.4em 0;
+  }
+  #options-container button {
+    padding: 0.6em 1.2em;
+    border: 3px solid #000000;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 0.3em;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  #options-container button:disabled {
+    border: 3px solid #808080;
+    color: #808080;
+    background-color: #efefef;
+  }
+  #options-container button.active {
+    background-color: #531761;
+    border: 3px solid #000000;
+    color: #fff;
+  }
+  .letter-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6em;
+  }
+  #letter-container button {
+    height: 2.4em;
+    width: 2.4em;
+    border-radius: 0.3em;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  .new-game-popup {
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0.6em;
+  }
+  
+  #user-input-section {
+    display: flex;
+    justify-content: center;
+    font-size: 1.8em;
+    margin: 0.6em 0 1.2em 0;
+  }
+  canvas {
+    display: block;
+    margin: auto;
+    border: 10px solid black;
+    border-radius: 10px;
+  }
+  .hide {
+    display: none;
+  }
+  #result-text h2 {
+    font-size: 1.8em;
+    text-align: center;
+  }
+  #result-text p {
+    font-size: 1.25em;
+    margin: 1em 0 2em 0;
+  }
+  #result-text span {
+    font-weight: 600;
+  }
+  #new-game-button {
+    font-size: 1.25em;
+    padding: 0.5em 1em;
+    background-color: #531761;
+    border: 3px solid #000000;
+    color: #fff;
+    border-radius: 0.2em;
+    cursor: pointer;
+  }
+  .win-msg {
+    color: #0ea45e;
+  }
+  .lose-msg {
+    color: #fe5152;
+  }
+
